@@ -7,7 +7,6 @@ function Logout(){
     .then(() => {
       console.log("signed out successfully");
 
-      // FIX: wait for AuthContext to update
       setTimeout(() => {
         navigate("/");
       }, 100);

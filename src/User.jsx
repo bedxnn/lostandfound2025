@@ -4,7 +4,7 @@ import { AuthContext } from './firebasefile/authContext';
 
 function UserData() {
 
-  const { user } = useContext(AuthContext); // 🔥 get logged-in user
+  const { user } = useContext(AuthContext); // 
 
   const [formData, setFormData] = useState({
     name: "",
