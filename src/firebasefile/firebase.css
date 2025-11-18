@@ -1,0 +1,35 @@
+/* Container for the login form */
+.loginn {
+  width: 350px;
+  margin: 100px auto;        /* centers it on screen */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Styling for the input fields */
+.loginn input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Styling for the buttons */
+.loginn button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4b6cb7;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginn button:hover {
+  background-color: #3a5ba3;
+}
